@@ -1,8 +1,8 @@
 
-# Search Bar Application
+# Form Application
 
 I build a basic registration form in React where
-users can enter userna,e , email and password. Post-registration, an error message is displayed for each field if
+users can enter username , email and password. Post-registration, an error message is displayed for each field if
 validation fails else a success message is shown.
 
 ## Topics covered:​
