@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Search Bar Application
 
-## Available Scripts
+I build a basic registration form in React where
+users can enter userna,e , email and password. Post-registration, an error message is displayed for each field if
+validation fails else a success message is shown.
 
-In the project directory, you can run:
+## Topics covered:​
 
-### `npm start`
+ - React Hooks
+ - Components 
+ - useState().​
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authors
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [@enisgjini](https://github.com/enisgjini)
 
-### `npm test`
+## Badges
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5600c55-5e51-46cc-972f-2b8df397464f/deploy-status)](https://app.netlify.com/sites/form-application/deploys)
 
-### `npm run build`
+## Color Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Color             | Hex                | Preview |
+| ----------------- | ------------------ | ------- |
+| Background Color #1 | #F9FAFB |![](https://via.placeholder.com/15/F9FAFB/F9FAFB.png) |
+| Background Color #2 | #1A56DB |![](https://via.placeholder.com/15/1A56DB/1A56DB.png) |
+| Background Color #3 | #000000 |![](https://via.placeholder.com/15/000000/000000.png) |
+| Text Color #1 | #FFFFFF | ![](https://via.placeholder.com/15/FFFFFF/FFFFFF.png) |
+| Text Color #2 | #111827 |![](https://via.placeholder.com/15/111827/111827.png) |
+| Text Color #3 | #000000 |![](https://via.placeholder.com/15/000000/000000.png) |
+| Border Color #1 | #D1D5DB |![](https://via.placeholder.com/15/D1D5DB/D1D5DB.png) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Media Queries Reference
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Media queries   | Occurrences        |
+| --------------- | ------------------ |
+| (min-width : 640px) | 3 |
+| (min-width : 768px) | 3 |
+| (min-width : 1024px) | 3 |  
+| (min-width : 1280px) | 1 |
+| (min-width : 1536px) | 1 |
+| print | 2 |
+| only screen and (max-width:1333px) | 1 |
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are always welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Demo
 
-## Learn More
+https://form-application.netlify.app/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run Locally
 
-### Code Splitting
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  git clone https://github.com/enisgjini/form-application.git
+```
 
-### Analyzing the Bundle Size
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  cd form-application
+```
 
-### Making a Progressive Web App
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm install
+```
 
-### Advanced Configuration
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm run start
+```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
